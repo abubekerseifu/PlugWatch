@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![macOS 14+](https://img.shields.io/badge/macOS-14%2B-black.svg)](#requirements)
-[![CI](https://img.shields.io/badge/CI-xcodebuild-lightgrey.svg)](.github/workflows/ci.yml)
+[![CI](https://github.com/abubekerseifu/PlugWatch/actions/workflows/ci.yml/badge.svg)](https://github.com/abubekerseifu/PlugWatch/actions/workflows/ci.yml)
 
 Lightweight native **macOS menu bar agent** that tracks AC vs battery usage, nudges you after continuous awake unplugged time, and keeps a persistent history you can export.
 
