@@ -20,7 +20,17 @@ Lightweight native **macOS menu bar agent** that tracks AC vs battery usage, nud
 ## Requirements
 
 - macOS 14 (Sonoma) or later
-- Xcode 15+ (Swift 5.9+)
+- Xcode 15+ (Swift 5.9+) to build from source
+
+## Download
+
+Prebuilt app (ad-hoc signed): **[PlugWatch-1.0.0-macos.zip](https://github.com/abubekerseifu/PlugWatch/releases/latest/download/PlugWatch-1.0.0-macos.zip)** from the [Releases](https://github.com/abubekerseifu/PlugWatch/releases) page.
+
+1. Unzip and move `PlugWatch.app` to `/Applications`
+2. First launch may be blocked by Gatekeeper — right-click the app → **Open**, or allow it in **System Settings → Privacy & Security**
+3. Look for the bolt/battery icon in the menu bar
+
+> GitHub **Packages** is for container/npm registries. macOS apps are published as **Release assets** (the zip above), not as Packages.
 
 ## Build & run
 

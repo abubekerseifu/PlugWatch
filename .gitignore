@@ -14,6 +14,7 @@ xcuserdata/
 # Archives / packaging
 *.xcarchive
 exportOptions.plist
+dist/
 
 # Swift Package Manager
 .build/
