@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2532A4FF53004868A0242210 /* PlugWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB27DF518AF04166B97057C7 /* PlugWatchApp.swift */; };
+		156D74A747AD428787C36EFF /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75B7E1CD56D54549BF96B82B /* AppModel.swift */; };
+		5B876C1D2CB2448F84810ABB /* PowerSourceKind.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467C999080E041BFAD5A2C52 /* PowerSourceKind.swift */; };
+		AA9FA9C4AB7A45D2A9532326 /* PowerSourceMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3809D44B49BE4A7387EDE572 /* PowerSourceMonitor.swift */; };
+		377493516417411E927FC714 /* SleepMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92610E05364D405DBD79A115 /* SleepMonitor.swift */; };
+		2982361E408A40A399662AA3 /* HabitState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 552AFAA07D7E460C888E6834 /* HabitState.swift */; };
+		08DA1BB9B14D46BABD05E0C2 /* HabitConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2481027F22840399D72CF70 /* HabitConfiguration.swift */; };
+		1B20697FFE7A4C19A9005C5E /* BatteryHabitController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49D5EF5D6D4646569653B30A /* BatteryHabitController.swift */; };
+		4762ED78E3E140A08FFF4D7F /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE83AC4F3404E37B255D9DF /* NotificationService.swift */; };
+		9340871A2E414B34B9A57851 /* FloatingAlertPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4903E974EFC140B888296D58 /* FloatingAlertPanel.swift */; };
+		65A172A5386F420C96B4CC13 /* MenuBarContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4023AE40ABD94A2B87FF44A7 /* MenuBarContent.swift */; };
+		463D713928C343C3925BB8C7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F78FFC39F7C4C5080754839 /* SettingsView.swift */; };
+		A1B2C3D4E5F60718293A4B5C /* SettingsWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F60718293A4B5C6D /* SettingsWindowController.swift */; };
+		C1D2E3F405162738495A6B7C /* PowerSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E3F405162738495A6B7C8D /* PowerSession.swift */; };
+		E3F405162738495A6B7C8D9E /* PowerHistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F405162738495A6B7C8D9E0F /* PowerHistoryStore.swift */; };
+		05162738495A6B7C8D9E0F1A /* PowerUsageRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 162738495A6B7C8D9E0F1A2B /* PowerUsageRecorder.swift */; };
+		2738495A6B7C8D9E0F1A2B3C /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38495A6B7C8D9E0F1A2B3C4D /* HistoryView.swift */; };
+		495A6B7C8D9E0F1A2B3C4D5E /* HistoryWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A6B7C8D9E0F1A2B3C4D5E6F /* HistoryWindowController.swift */; };
+		6AD7F56585F64B89BD3DAEEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1F2367D540849F89568CC22 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB27DF518AF04166B97057C7 /* PlugWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PlugWatchApp.swift"; sourceTree = "<group>"; };
+		75B7E1CD56D54549BF96B82B /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppModel.swift"; sourceTree = "<group>"; };
+		467C999080E041BFAD5A2C52 /* PowerSourceKind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PowerSourceKind.swift"; sourceTree = "<group>"; };
+		3809D44B49BE4A7387EDE572 /* PowerSourceMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PowerSourceMonitor.swift"; sourceTree = "<group>"; };
+		92610E05364D405DBD79A115 /* SleepMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SleepMonitor.swift"; sourceTree = "<group>"; };
+		552AFAA07D7E460C888E6834 /* HabitState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitState.swift"; sourceTree = "<group>"; };
+		B2481027F22840399D72CF70 /* HabitConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HabitConfiguration.swift"; sourceTree = "<group>"; };
+		49D5EF5D6D4646569653B30A /* BatteryHabitController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BatteryHabitController.swift"; sourceTree = "<group>"; };
+		9FE83AC4F3404E37B255D9DF /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationService.swift"; sourceTree = "<group>"; };
+		4903E974EFC140B888296D58 /* FloatingAlertPanel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FloatingAlertPanel.swift"; sourceTree = "<group>"; };
+		4023AE40ABD94A2B87FF44A7 /* MenuBarContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MenuBarContent.swift"; sourceTree = "<group>"; };
+		1F78FFC39F7C4C5080754839 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		B2C3D4E5F60718293A4B5C6D /* SettingsWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsWindowController.swift"; sourceTree = "<group>"; };
+		D2E3F405162738495A6B7C8D /* PowerSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PowerSession.swift"; sourceTree = "<group>"; };
+		F405162738495A6B7C8D9E0F /* PowerHistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PowerHistoryStore.swift"; sourceTree = "<group>"; };
+		162738495A6B7C8D9E0F1A2B /* PowerUsageRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PowerUsageRecorder.swift"; sourceTree = "<group>"; };
+		38495A6B7C8D9E0F1A2B3C4D /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryView.swift"; sourceTree = "<group>"; };
+		5A6B7C8D9E0F1A2B3C4D5E6F /* HistoryWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HistoryWindowController.swift"; sourceTree = "<group>"; };
+		D1F2367D540849F89568CC22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		4D796A834EBD483AA251BAAE /* PlugWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlugWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DEE4414BAA64BBFB1019435 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+
+		381FFBFCC0584432AE9C6A9B /* Power */ = {
+			isa = PBXGroup;
+			children = (
+				467C999080E041BFAD5A2C52 /* PowerSourceKind.swift */,
+				3809D44B49BE4A7387EDE572 /* PowerSourceMonitor.swift */,
+				92610E05364D405DBD79A115 /* SleepMonitor.swift */,
+			);
+			path = Power;
+			sourceTree = "<group>";
+		};
+		76E19BEF4EE44027AE8C1808 /* Habit */ = {
+			isa = PBXGroup;
+			children = (
+				552AFAA07D7E460C888E6834 /* HabitState.swift */,
+				B2481027F22840399D72CF70 /* HabitConfiguration.swift */,
+				49D5EF5D6D4646569653B30A /* BatteryHabitController.swift */,
+			);
+			path = Habit;
+			sourceTree = "<group>";
+		};
+		A752E41BEB374710AB57B548 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				9FE83AC4F3404E37B255D9DF /* NotificationService.swift */,
+				4903E974EFC140B888296D58 /* FloatingAlertPanel.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		1589932E1EBB48EA99D9B363 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4023AE40ABD94A2B87FF44A7 /* MenuBarContent.swift */,
+				1F78FFC39F7C4C5080754839 /* SettingsView.swift */,
+				B2C3D4E5F60718293A4B5C6D /* SettingsWindowController.swift */,
+				38495A6B7C8D9E0F1A2B3C4D /* HistoryView.swift */,
+				5A6B7C8D9E0F1A2B3C4D5E6F /* HistoryWindowController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7C8D9E0F1A2B3C4D5E6F7081 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				D2E3F405162738495A6B7C8D /* PowerSession.swift */,
+				F405162738495A6B7C8D9E0F /* PowerHistoryStore.swift */,
+				162738495A6B7C8D9E0F1A2B /* PowerUsageRecorder.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		0D1E7F9F02104937A00C628C /* PlugWatch */ = {
+			isa = PBXGroup;
+			children = (
+				EB27DF518AF04166B97057C7 /* PlugWatchApp.swift */,
+				75B7E1CD56D54549BF96B82B /* AppModel.swift */,
+				D1F2367D540849F89568CC22 /* Assets.xcassets */,
+				381FFBFCC0584432AE9C6A9B /* Power */,
+				76E19BEF4EE44027AE8C1808 /* Habit */,
+				A752E41BEB374710AB57B548 /* Alerts */,
+				7C8D9E0F1A2B3C4D5E6F7081 /* History */,
+				1589932E1EBB48EA99D9B363 /* UI */,
+			);
+			path = PlugWatch;
+			sourceTree = "<group>";
+		};
+		8FA484CD78C4497C8025085B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D796A834EBD483AA251BAAE /* PlugWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C12C6249DD7341C3B8181E4B = {
+			isa = PBXGroup;
+			children = (
+				0D1E7F9F02104937A00C628C /* PlugWatch */,
+				8FA484CD78C4497C8025085B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5FA436BF0E341B2BF4D7A52 /* PlugWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = TGTCFG /* Build configuration list for PBXNativeTarget "PlugWatch" */;
+			buildPhases = (
+				FB48398862FA41E48831B6C0 /* Sources */,
+				8DEE4414BAA64BBFB1019435 /* Frameworks */,
+				79DA75B0D5394446B5602F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlugWatch;
+			productName = PlugWatch;
+			productReference = 4D796A834EBD483AA251BAAE /* PlugWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D93D6532E21E4405A5692C8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = PROJCFG /* Build configuration list for PBXProject "PlugWatch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C12C6249DD7341C3B8181E4B;
+			productRefGroup = 8FA484CD78C4497C8025085B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5FA436BF0E341B2BF4D7A52 /* PlugWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79DA75B0D5394446B5602F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD7F56585F64B89BD3DAEEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB48398862FA41E48831B6C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2532A4FF53004868A0242210 /* PlugWatchApp.swift in Sources */,
+				156D74A747AD428787C36EFF /* AppModel.swift in Sources */,
+				5B876C1D2CB2448F84810ABB /* PowerSourceKind.swift in Sources */,
+				AA9FA9C4AB7A45D2A9532326 /* PowerSourceMonitor.swift in Sources */,
+				377493516417411E927FC714 /* SleepMonitor.swift in Sources */,
+				2982361E408A40A399662AA3 /* HabitState.swift in Sources */,
+				08DA1BB9B14D46BABD05E0C2 /* HabitConfiguration.swift in Sources */,
+				1B20697FFE7A4C19A9005C5E /* BatteryHabitController.swift in Sources */,
+				4762ED78E3E140A08FFF4D7F /* NotificationService.swift in Sources */,
+				9340871A2E414B34B9A57851 /* FloatingAlertPanel.swift in Sources */,
+				65A172A5386F420C96B4CC13 /* MenuBarContent.swift in Sources */,
+				463D713928C343C3925BB8C7 /* SettingsView.swift in Sources */,
+				A1B2C3D4E5F60718293A4B5C /* SettingsWindowController.swift in Sources */,
+				C1D2E3F405162738495A6B7C /* PowerSession.swift in Sources */,
+				E3F405162738495A6B7C8D9E /* PowerHistoryStore.swift in Sources */,
+				05162738495A6B7C8D9E0F1A /* PowerUsageRecorder.swift in Sources */,
+				2738495A6B7C8D9E0F1A2B3C /* HistoryView.swift in Sources */,
+				495A6B7C8D9E0F1A2B3C4D5E /* HistoryWindowController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		DBGPROJ /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		RELPROJ /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DBGTGT /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PlugWatch/PlugWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PlugWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plugwatch.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		RELTGT /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PlugWatch/PlugWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PlugWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plugwatch.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		PROJCFG /* Build configuration list for PBXProject "PlugWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBGPROJ /* Debug */,
+				RELPROJ /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		TGTCFG /* Build configuration list for PBXNativeTarget "PlugWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBGTGT /* Debug */,
+				RELTGT /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D93D6532E21E4405A5692C8C /* Project object */;
+}
